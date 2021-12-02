@@ -1,2 +1,3 @@
-import { soma } from './soma'
-console.log(soma(1, 2))
+import React from 'react'
+import { render } from 'react-dom'
+
