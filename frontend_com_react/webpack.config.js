@@ -8,7 +8,9 @@ module.exports = {
 		filename: 'bundle.js'
 	},
 	devServer: {
-		contentBase: path.resolve(__dirname, 'public'),
+		static: {
+			contentBase: path.resolve(__dirname, 'public'),
+		}
 	},
 	module: {
 		rules: [
