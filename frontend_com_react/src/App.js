@@ -1,26 +1,31 @@
 import React from "react";
 
 import Header from './components/Header';
+import Teste from "./components/teste";
 
-function App() {
+export default function App() {
+
 	return (
-		<>
-			<Header title="Homepage">
-				<ul>
-					<li>Homepage</li>
-					<li>Projects</li>
-				</ul>
-			</Header>
-			<Header title="Projects">
-				<ul>
-					<li>Login</li>
-					<li>Homepage</li>
-					<li>Projects</li>
-				</ul>
-			</Header>
-		</>
+		<div className="App">
+			<div>
+				<Header title="Homepage">
+					<ul>
+						<li>Homepage</li>
+						<li>Projects</li>
+						<li>teste</li>
+					</ul>
+				</Header>
+				<Header title="Projects">
+					<ul>
+						<li>Login</li>
+						<li>Homepage</li>
+						<li>Projects</li>
+					</ul>
+				</Header>
+			</div>
+			
+		</div>
 	);
 
 }
 
-export default App;
