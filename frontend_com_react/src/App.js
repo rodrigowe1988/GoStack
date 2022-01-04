@@ -1,8 +1,8 @@
 import React from "react";
-
 import Header from './components/Header';
+import Saudacao from "./components/Teste";
 
-function App() {
+export default function App() {
 	return (
 		<>
 			<Header title="Homepage">
@@ -18,9 +18,8 @@ function App() {
 					<li>Projects</li>
 				</ul>
 			</Header>
+			<Saudacao />
 		</>
 	);
-
 }
 
-export default App;

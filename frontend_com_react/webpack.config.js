@@ -9,7 +9,7 @@ module.exports = {
 	},
 	devServer: {
 		static: {
-			contentBase: path.resolve(__dirname, 'public'),
+			directory: path.resolve(__dirname, 'public'),
 		}
 	},
 	module: {
